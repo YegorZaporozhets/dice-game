@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dice Game</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <div class="rules">
+        <h3>Правила</h3>
+         <p>Бросается два кубика. После первого броска кубиков игрок выигрывает, если сумма равна 7 или 11.
+           <br> Он проигрывает, если сумма равна 2, 3 или 12. В противном случае сумма, полученная при первом броске,
+           <br> записывается ему и он должен снова бросить кости.  На втором или следующем броске кубиков игрок выигрывает,
+           <br> если сумма равна имеющимся очкам, и он проигрывает, если сумма равна 7. В противном случае он должен снова
+           <br>  бросать кубики, пока, наконец, не победит или не проиграет.
+         </p>
+      </div>
+      <input id="start" type="button" name="start" value="Сыграть">
+      <div class="game">
+        <div class="cube1">
+          <p></p>
+        </div>
+        <div class="cube2">
+          <p></p>
+        </div>
+        <div class="sum">
+          <p></p>
+        </div>
+        <div class="game-result">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
